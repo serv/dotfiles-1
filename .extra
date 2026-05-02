@@ -169,3 +169,10 @@ export PNPM_HOME="$HOME/pnpm"
 # Running $ terraform -install-autocomplete
 # https://developer.hashicorp.com/terraform/tutorials/azure-get-started/install-cli
 complete -C /opt/homebrew/bin/terraform terraform
+
+# opencode
+export PATH=/Users/jasonkim/.opencode/bin:$PATH
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
